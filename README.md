@@ -2,7 +2,7 @@
 
 Tic Tac Toe is a game for two players, X and O, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game.
 
-[Click here to play the Game](http://ozz1.ddns.net)
+[Click here to play the Game](https://code3-30a1dbb24e94.herokuapp.com/)
 ## How to play
 
 1. The game is played on a 3x3 board
@@ -10,6 +10,14 @@ Tic Tac Toe is a game for two players, X and O, who take turns marking the space
 3. Place three of the symbols in a row, column or diagonal to win
 4. If the entire board is filled and there is no winner, the game is a draw. <br>
     Good Luck! :)
+
+## Flowchart
+
+This is the flowchart of the game
+
+![Flowchart](assets/readme-imgs/Flowcharts.png)
+
+Done via [Lucidchart](https://www.lucidchart.com/pages/)
 
 ### Features
 
