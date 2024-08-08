@@ -21,7 +21,7 @@ def addScore(winner):
 # function to get the scores
 
 def getScore():
-    vars = [score['player'],score['computer'],score['draw']]
+    vars = [score['player'], score['computer'], score['draw']]
     return vars
 
 
@@ -40,8 +40,8 @@ def typingInput(text):
         sys.stdout.write(character)
         sys.stdout.flush()
         time.sleep(0.05)
-        value = input()  
-        return value  
+        value = input()
+        return value
 
 
 # Clear The screen

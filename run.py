@@ -20,14 +20,14 @@ def mainScreen():
 
 
 menu_selection = '0'
-while menu_selection != 3: #if user not exit
+while menu_selection != 3:  # if user not exit
     try:
         gf.clearScreen()
         print(f"\033[1;34;40m {word_art.logo}")
         gf.typingPrint("Welcome to Tic Tac Toe Game have fun\n")
         print("------------------------------------\n")
-        print(ui.menu) #print the menu
-        menu_selection = input("Select your option: ") #user menu selection
+        print(ui.menu)  # print the menu
+        menu_selection = input("Select your option: ")  # user menu selection
 
     except (RuntimeError, ValueError, KeyboardInterrupt):
         print("Wrong Selection. Try Again!")
@@ -35,10 +35,10 @@ while menu_selection != 3: #if user not exit
         pass
 
     else:
-        if menu_selection == '1': #start the game
+        if menu_selection == '1':  # start the game
             game.runGame()
 
-        elif menu_selection == '2':   #print rules
+        elif menu_selection == '2':  # print rules
             gf.clearScreen()
             print(word_art.logo)
             print(ui.rules)
@@ -47,7 +47,7 @@ while menu_selection != 3: #if user not exit
             except SyntaxError:
                 pass
 
-        elif menu_selection == '3': #exit the game
+        elif menu_selection == '3':  # exit the game
             gf.typingPrint("Good Bye!")
             break
         else:

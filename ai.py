@@ -1,6 +1,7 @@
 import game
 from colorama import Fore
 
+
 def compTurn(squareval):
     """
         the computer logic
@@ -8,7 +9,7 @@ def compTurn(squareval):
 
     pos = 0
 
-    #check if computer can win
+    # check if computer can win
     while True:
         try:
             if squareval[1] == 'O' and squareval[2] == 'O' and squareval[3] == 0:
@@ -85,7 +86,7 @@ def compTurn(squareval):
 
         except:
             pass
-#check if Player can win
+# check if Player can win
         else:
             if squareval[1] == 'X' and squareval[2] == 'X' and squareval[3] == 0:
                 pos = 3
@@ -160,10 +161,10 @@ def compTurn(squareval):
                 pos = 3
                 break
 
-    #choise square
+    # choise square
         finally:
             if pos == 0:
-                if squareval[1] == 0 :
+                if squareval[1] == 0:
                     pos = 1
                     break
                 elif squareval[9] == 0:
@@ -192,5 +193,4 @@ def compTurn(squareval):
                     break
             else:
                 break
-    
     return pos
