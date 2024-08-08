@@ -1,32 +1,52 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# [Tic Tac Toe](http://ozz1.ddns.net)
 
-Welcome,
+Tic Tac Toe is a game for two players, X and O, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game.
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **May 14, 2024**
+[Click here to play the Game](http://ozz1.ddns.net)
+## How to play
 
-## Reminders
+1. The game is played on a 3x3 board
+2. Players take turns to choose the cell on the game board.
+3. Place three of the symbols in a row, column or diagonal to win
+4. If the entire board is filled and there is no winner, the game is a draw. <br>
+    Good Luck! :)
 
-- Your code must be placed in the `run.py` file
-- Your dependencies must be placed in the `requirements.txt` file
-- Do not edit any of the other files or your code may not deploy properly
+### Features
 
-## Creating the Heroku app
+* The Menu <br>
+![Select Option](assets/readme-imgs/menu.jpg)
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+* Menu Option 2 <br>
+![Menu Option  2](assets/readme-imgs/rules.jpg)
 
-1. `heroku/python`
-2. `heroku/nodejs`
+* Menu Option 1 Start the Game and Select board style <br>
+![Menu Option 1 Start the Game and Select board style](assets/readme-imgs/board-select.jpg)
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+* Board 1 Gameplay <br>
+![Board 1](assets/readme-imgs/board1.jpg)
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+* Board 2 Gameplay <br>
+![Board 2](assets/readme-imgs/board2.jpg)
 
-Connect your GitHub repository and deploy as normal.
+### Winning Options
 
-## Constraints
+* Win in a Row <br>
+![winrow](assets/readme-imgs/winrow.jpg)
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
+* Win in a Column <br>
+![wincolumn](assets/readme-imgs/wincolumn.jpg)
 
----
+* Win Diagonal <br>
+![windiagonal](assets/readme-imgs/windiagonal.jpg)
 
-Happy coding!
+
+## Validator Testing
+Checked in PEP8
+ - No Errors
+![PEP8](assets/readme-imgs/pep8.jpg)
+
+## Deployment
+I deploy this Project on my home server
+
+## Credits
+The word art are made by https://www.fancytextpro.com/
