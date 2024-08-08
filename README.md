@@ -19,6 +19,23 @@ This is the flowchart of the game
 
 Done via [Lucidchart](https://www.lucidchart.com/pages/)
 
+## User Stories
+
+* I want the game to be easy to navigate
+
+* I want the game to be fun and entertainment
+
+* I want the game to be user friendly
+
+## User Goals
+
+Play vs Computer
+* I want to play against the computer
+
+## Future Features
+
+* Play against another Player
+
 ### Features
 
 * The Menu <br>
@@ -108,3 +125,7 @@ Click the Fork button in the top right corner.
 
 ## Credits
 The word art are made by https://www.fancytextpro.com/
+
+###Libraries used
+
+[Colorama](https://pypi.org/project/colorama/)
