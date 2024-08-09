@@ -1,9 +1,31 @@
-# [Tic Tac Toe](http://ozz1.ddns.net)
+# [Tic Tac Toe](https://code3-30a1dbb24e94.herokuapp.com/)
+
+- [Tic Tac Toe](#tic-tac-toe)
+- [How to play](#how-to-play)
+- [Flowchart](#flowchart)
+- [User Stories](#user-stories)
+- [User Goals](#user-goals)
+- [Future Features](#future-features)
+- [Features](#features)
+- [Winning Options](#winning-options)
+- [Testing](#testing)
+- [Validator Testing](#validator-testing)
+- [Deployment](#deployment)
+- [Heroku](#heroku)
+- [Github](#github)
+- [Forking](#forking)
+- [Clone](#clone)
+- [Credits](#credits)
+
 
 Tic Tac Toe is a game for two players, X and O, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game.
 
 [Click here to play the Game](https://code3-30a1dbb24e94.herokuapp.com/)
-## How to play
+
+
+- [How to Play] (#)
+
+# How to play
 
 1. The game is played on a 3x3 board
 2. Players take turns to choose the cell on the game board.
@@ -11,7 +33,7 @@ Tic Tac Toe is a game for two players, X and O, who take turns marking the space
 4. If the entire board is filled and there is no winner, the game is a draw. <br>
     Good Luck! :)
 
-## Flowchart
+# Flowchart
 
 This is the flowchart of the game
 
@@ -19,7 +41,7 @@ This is the flowchart of the game
 
 Done via [Lucidchart](https://www.lucidchart.com/pages/)
 
-## User Stories
+# User Stories
 
 * I want the game to be easy to navigate
 
@@ -27,16 +49,16 @@ Done via [Lucidchart](https://www.lucidchart.com/pages/)
 
 * I want the game to be user friendly
 
-## User Goals
+# User Goals
 
 Play vs Computer
 * I want to play against the computer
 
-## Future Features
+# Future Features
 
 * Play against another Player
 
-### Features
+# Features
 
 * The Main Menu <br>
 ![Select Option](assets/readme-imgs/menu.jpg)
@@ -53,7 +75,7 @@ Play vs Computer
 * Board 2 Gameplay <br>
 ![Board 2 Theme](assets/readme-imgs/board2.jpg)
 
-### Winning Options
+# Winning Options
 
 * Win in a Row <br>
 ![winrow](assets/readme-imgs/winrow.jpg)
@@ -69,8 +91,9 @@ Play vs Computer
 Error Message on Main Menu
 ![Error Message](assets/readme-imgs/main-error.png)
 
+![Wrong Square Selection Error Message](assets/readme-imgs/gameplay-wrong-selection.png)
 
-## Validator Testing
+# Validator Testing
 Checked in PEP8
  - No Errors
 ![PEP8](assets/readme-imgs/pep8.jpg)
@@ -82,7 +105,7 @@ The app was deployed through Heroku. The steps are as following:
 
 Login (or signup) to [Heroku](https://id.heroku.com/login) and [Github](https://github.com/login)
 
-### Heroku
+# Heroku
 
 1. After creating a Heroku account, click "New" to create a new app from the dashboard.
 
@@ -109,15 +132,15 @@ Login (or signup) to [Heroku](https://id.heroku.com/login) and [Github](https://
 11. When the build is finished, click "View" link to bring you to your deployed site. You can also find the link via Settings -> Domains.
 __________________________________________________________________________________________________________
 
-### Github
+# Github
 
 Go to the repository for this project -> [code3](https://github.com/ozz1webdev/code3)
 
-#### Forking
+# Forking
 
 Click the Fork button in the top right corner.
 
-#### Clone
+# Clone
 
 1. Click the button called Code
 
@@ -128,9 +151,9 @@ Click the Fork button in the top right corner.
 4. Type 'git clone' into the terminal and then paste the link you copied. Press enter.
 
 
-## Credits
+# Credits
 The word art are made by https://www.fancytextpro.com/
 
-###Libraries used
+#Libraries used
 
 [Colorama](https://pypi.org/project/colorama/)
