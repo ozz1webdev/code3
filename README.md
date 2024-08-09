@@ -88,9 +88,10 @@ Play vs Computer
 
 # Testing
 
-Error Message on Main Menu
+Error Message on Main Menu<br>
 ![Error Message](assets/readme-imgs/main-error.png)
 
+Wrong Selections on Square Selection<br>
 ![Wrong Square Selection Error Message](assets/readme-imgs/gameplay-wrong-selection.png)
 
 # Validator Testing
